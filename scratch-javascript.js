@@ -48,5 +48,10 @@ let counter = 1;
 a = counter++;
 alert(counter++)
 
+let year = prompt("In which year ECMAScript-2015 specification  published?", '');
+if (year == 2015) alert('You are right')
+
+
+
 
 
