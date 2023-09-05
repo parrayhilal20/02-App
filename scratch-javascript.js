@@ -51,6 +51,12 @@ alert(counter++)
 let year = prompt("In which year ECMAScript-2015 specification  published?", '');
 if (year == 2015) alert('You are right')
 
+let age = prompt('age?',10);
+
+(age<18) ? alert(`Your age is  --- ${age} --below list`) : (age == 18) ? alert(`Your age is ${age} -- equal to list`) : (age > 18) ? alert(`Your age is ${age}- you can vote`) : alert('Not an age!');
+
+
+
 
 
 
